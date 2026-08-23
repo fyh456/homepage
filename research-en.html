@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Research projects by Yuhang Fan in nanoscale film metrology, microscopy-image processing, and ellipsometric uncertainty modeling.">
+  <title>Research | Yuhang Fan</title>
+  <script>
+    (() => {
+      try {
+        const savedTheme = localStorage.getItem('site-theme');
+        document.documentElement.dataset.theme = savedTheme || 'light';
+      } catch { document.documentElement.dataset.theme = 'light'; }
+    })();
+  </script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="research" data-language="en" data-page-zh="research.html" data-page-en="research-en.html">
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="header-shell">
+      <a class="site-title" href="index-en.html">Yuhang Fan</a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation">
+        <span></span><span></span><span></span>
+        <span class="sr-only">Open navigation menu</span>
+      </button>
+      <nav id="primary-navigation" class="primary-nav" aria-label="Primary navigation">
+        <a href="research-en.html" data-nav="research">Research</a>
+        <a href="activities-en.html" data-nav="activities">Activities</a>
+        <a href="index-en.html" data-nav="home">About</a>
+        <a href="output/pdf/CV-en.pdf" target="_blank" rel="noopener">CV ↗</a>
+        <div class="language-switcher" aria-label="Language selection">
+          <a href="research.html" data-language-choice="zh">中文</a><span>/</span><a href="research-en.html" data-language-choice="en" aria-current="true">EN</a>
+        </div>
+        <button class="theme-toggle" type="button" aria-label="Switch to dark mode" title="Switch to dark mode">
+          <svg class="theme-icon icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.66 6.34l1.41-1.41"/></svg>
+          <svg class="theme-icon icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <div class="page-shell">
+    <aside class="profile-sidebar" aria-label="Profile">
+      <div class="profile-photo">
+        <img src="assets/images/profile-yuhang-fan.png" alt="Portrait of Yuhang Fan" width="164" height="188" draggable="false">
+      </div>
+      <h2>Yuhang Fan</h2>
+      <p class="profile-name-en">范宇航</p>
+      <p class="profile-subtitle">Physics (Optics)<br>Precision Optical Metrology</p>
+      <ul class="profile-details">
+        <li><span class="detail-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg></span><span>Shanghai, China</span></li>
+        <li><span class="detail-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m3 9 9-5 9 5-9 5-9-5Z"/><path d="M7 12v5c3 2 7 2 10 0v-5M21 9v6"/></svg></span><span>Tongji University</span></li>
+        <li><span class="detail-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18" rx="1"/><path d="M8 7h2M14 7h2M8 11h2M14 11h2M8 15h2M14 15h2M9 21v-2h6v2"/></svg></span><span>School of Physical Science and Engineering</span></li>
+        <li><span class="detail-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/></svg></span><a href="mailto:fanyh1401@163.com">fanyh1401@163.com</a></li>
+      </ul>
+      <div class="sidebar-keywords"><span>Thin-film Optics</span><span>Polarization</span><span>Metrology</span></div>
+    </aside>
+
+    <main id="main-content" class="content-panel">
+      <section class="intro-section" aria-labelledby="research-heading">
+        <h1 id="research-heading">Research</h1>
+        <p>My work addresses nanoscale measurement needs in advanced integrated-circuit manufacturing. I combine optical principles, precision instrumentation, and data processing to make thin-film characterization more accurate, stable, and efficient.</p>
+      </section>
+
+      <section class="research-projects" aria-labelledby="projects-heading">
+        <h2 id="projects-heading" class="section-title">Projects and Research Plans</h2>
+
+        <article class="project-entry project-featured">
+          <div class="entry-heading">
+            <span class="entry-number">01</span>
+            <div><p class="entry-type">RESEARCH STUDY · COMPLETE METHODOLOGY</p><h3>Nanoscale Film-Thickness Measurement and Characterization</h3></div>
+          </div>
+          <p class="project-lead">The challenge in film-thickness metrology is not only to obtain a precise number, but also to show that the result is traceable to a reliable standard and consistent across methods. Using an approximately 11 nm single-layer SiO₂ film, this project established three independent traceability routes, evaluated cross-method consistency, and combined compatible results into a reference value suitable for value transfer.</p>
+
+          <div class="project-points" aria-label="Project 1 summary">
+            <div><strong>Problem</strong><p>Different instruments and reference scales can produce slightly different thickness values. How can we distinguish normal measurement variation from genuine incompatibility between methods?</p></div>
+            <div><strong>Approach</strong><p>I used standard-calibrated ellipsometry, Si(111)-referenced TEM, and self-traceable chromium-grating-referenced TEM, and assessed metrological compatibility using the normalized error E<sub>n</sub>.</p></div>
+            <div><strong>Outcome</strong><p>All pairwise results were compatible (E<sub>n</sub>&lt;1). Uncertainty-weighted combination yielded 11.45 ± 0.10 nm (k=2) and a framework for cross-method consistency assessment and value transfer.</p></div>
+          </div>
+
+          <figure class="project-figure project-figure-wide">
+            <img src="assets/images/project1-traceability-framework.png" alt="Three independent metrological traceability routes converging on a film-thickness reference value" loading="lazy">
+            <figcaption>Three independent routes: standard-calibrated ellipsometry, Si(111)-referenced TEM, and self-traceable-grating-referenced TEM.</figcaption>
+          </figure>
+          <div class="project-gallery project-gallery-two">
+            <figure class="project-figure">
+              <img src="assets/images/project1-tem-gradient.png" alt="TEM cross section and grayscale-gradient interface extraction" loading="lazy">
+              <figcaption>Grayscale profiles and gradient extrema locate the upper and lower film interfaces before pixel width is converted into thickness.</figcaption>
+            </figure>
+            <figure class="project-figure">
+              <img src="assets/images/project1-results.png" alt="Comparison of film-thickness results from three measurement routes and the reference value" loading="lazy">
+              <figcaption>Comparison of the three independently traceable results with the uncertainty-weighted reference value.</figcaption>
+            </figure>
+          </div>
+          <div class="card-meta"><strong>KEYWORDS</strong><span>Multiple Traceability Routes</span><span>Metrological Compatibility</span><span>Uncertainty Weighting</span><span>Reference Value</span><span>Value Transfer</span></div>
+        </article>
+
+        <article class="project-entry project-featured">
+          <div class="entry-heading">
+            <span class="entry-number">02</span>
+            <div><p class="entry-type">ALGORITHMS AND TOOLS · CODE AS THE MAIN OUTPUT</p><h3>Image and Signal Processing for Optical Metrology</h3></div>
+          </div>
+          <p class="project-lead">Using thin-film interfaces and grating structures as experimental objects, I turn manual boundary selection and one-image-at-a-time distance measurement into a reproducible computational workflow. Multiple image and signal-processing methods are combined to recover boundaries and periodic features, convert pixel distances into film thickness or grating pitch, and support transfer to other microscopy-image tasks.</p>
+
+          <div class="method-flow" aria-label="Project 2 algorithm workflow">
+            <div><span>01</span><strong>Preprocessing</strong><p>An ROI is selected and corrected for specimen tilt. For low-contrast grating cross sections, the local grayscale range is used to reconstruct the response and enhance interfaces and periodic contours (Figure 1).</p></div>
+            <div><span>02</span><strong>Feature Extraction</strong><p>Film boundaries are defined by half-intensity and gradient methods; grating boundaries are located by Gaussian filtering followed by Canny and contour extraction (Figure 2).</p></div>
+            <div><span>03</span><strong>Parameter Optimization</strong><p>ROI extent, smoothing strength, and Canny thresholds are adjusted interactively while contour continuity and stability are checked to optimize the result.</p></div>
+            <div><span>04</span><strong>Feature Calculation</strong><p>Pixel features are converted into physical quantities to obtain film thickness, while distances between neighboring contour centroids yield grating pitch (Figure 3).</p></div>
+          </div>
+
+          <div class="project-figure-sequence">
+            <figure class="project-figure project-figure-wide">
+              <img src="assets/images/project2-preprocessing-range.png" alt="Comparison of the original grating cross section and local-range-enhanced result" loading="lazy">
+              <figcaption>Figure 1. Original grating cross section (left) and the result after local-range inversion (right), with enhanced contrast at material interfaces and periodic contours.</figcaption>
+            </figure>
+            <figure class="project-figure project-figure-wide">
+              <img src="assets/images/project2-canny-parameter-panel.png" alt="Grating contour extraction, Canny edge detection, and parameter-control interface" loading="lazy">
+              <figcaption>Figure 2. Grating-boundary extraction and parameter tuning, with Canny edges, selected contours, and centroid results overlaid for inspection.</figcaption>
+            </figure>
+            <figure class="project-figure project-figure-wide">
+              <img src="assets/images/project2-centroid-pitch-result.png" alt="True grating contours, ROI overlays, and neighboring-structure centroids" loading="lazy">
+              <figcaption>Figure 3. Centroids extracted from true contours within the selected ROIs; the distance between neighboring centroids is used to calculate grating pitch.</figcaption>
+            </figure>
+          </div>
+          <div class="card-meta"><strong>KEYWORDS</strong><span>Half-Intensity Method</span><span>Canny</span><span>Gradient Analysis</span><span>FFT</span><span>Range-Based Inversion</span><span>Automation</span></div>
+        </article>
+
+        <article class="project-entry project-featured project-planned">
+          <div class="entry-heading">
+            <span class="entry-number">03</span>
+            <div><p class="entry-type">ONGOING · THEORY AND MODELING</p><h3>Ellipsometric Modeling and Uncertainty Propagation</h3></div>
+          </div>
+          <p class="project-lead">Ellipsometry recovers nanoscale material information from polarization changes produced by light-film interaction. This project models the responses of ψ and Δ to the complex refractive index n+ik, thickness d, wavelength, and incidence angle; studies how different error sources propagate, couple, and amplify during inversion; and seeks more reliable measurement conditions for instrument design and uncertainty evaluation.</p>
+
+          <div class="formula-panel" aria-label="Core ellipsometric relationships">
+            <div><span class="formula-label">Measured Quantity</span><p>ρ = r<sub>p</sub>/r<sub>s</sub> = tan ψ · e<sup>iΔ</sup></p></div>
+            <div><span class="formula-label">Film Phase</span><p>β = 2πnd cos θ<sub>f</sub> / λ</p></div>
+            <div><span class="formula-label">Error Propagation</span><p>[δψ, δΔ]<sup>T</sup> ≈ J<sub>n,d</sub>[δn, δd]<sup>T</sup> + J<sub>q</sub>δq</p></div>
+          </div>
+          <p class="formula-explain">Here λ is wavelength, θ<sub>f</sub> is the refracted angle inside the film, and q may include incidence angle, wavelength, substrate optical constants, and instrumental errors. The Jacobian J describes the sensitivity of ψ and Δ to each input. When the inverse problem is ill-conditioned, even small measurement noise can be strongly amplified.</p>
+
+          <div class="research-roadmap">
+            <div><span>STEP 1</span><h4>Build the Forward Model</h4><p>Calculate how ψ and Δ respond to changes in n, k, d, λ, and incidence angle.</p></div>
+            <div><span>STEP 2</span><h4>Map Sensitivity</h4><p>Compare analytical derivatives and numerical perturbations to identify dominant uncertainty contributors.</p></div>
+            <div><span>STEP 3</span><h4>Validate and Optimize</h4><p>Use Monte Carlo analysis to test linear propagation and identify robust wavelength-angle combinations.</p></div>
+          </div>
+          <aside class="project-status"><strong>PLANNED OUTPUTS</strong><span>Sensitivity Scripts</span><span>Uncertainty Budget</span><span>Condition-Optimization Maps</span><span>Dominant-Error Diagnosis</span></aside>
+          <div class="card-meta"><strong>KEYWORDS</strong><span>ψ/Δ</span><span>Parameter Inversion</span><span>Jacobian</span><span>Error Propagation</span><span>Condition Optimization</span></div>
+        </article>
+      </section>
+    </main>
+  </div>
+
+  <footer class="site-footer"><div class="footer-shell"><span>© <span data-current-year></span> Yuhang Fan</span><span class="footer-side"><a href="activities-en.html">Next: Activities →</a><span class="visit-counter" data-visit-counter hidden>Total visits: <strong data-visit-count>—</strong></span></span></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>

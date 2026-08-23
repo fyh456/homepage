@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="范宇航的科研项目与研究方向。">
+  <title>科研项目｜范宇航</title>
+  <script>
+    (() => {
+      try {
+        const savedTheme = localStorage.getItem('site-theme');
+        document.documentElement.dataset.theme = savedTheme || 'light';
+      } catch { document.documentElement.dataset.theme = 'light'; }
+    })();
+  </script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="research" data-language="zh" data-page-zh="research.html" data-page-en="research-en.html">
+  <a class="skip-link" href="#main-content">跳到主要内容</a>
+
+  <header class="site-header">
+    <div class="header-shell">
+      <a class="site-title" href="index.html">范宇航个人网页</a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation">
+        <span></span><span></span><span></span>
+        <span class="sr-only">打开导航菜单</span>
+      </button>
+      <nav id="primary-navigation" class="primary-nav" aria-label="主导航">
+        <a href="research.html" data-nav="research">科研项目</a>
+        <a href="activities.html" data-nav="activities">实践活动</a>
+        <a href="index.html" data-nav="home">关于我</a>
+        <a href="output/pdf/CV-en.pdf" target="_blank" rel="noopener">CV ↗</a>
+        <div class="language-switcher" aria-label="语言选择">
+          <a href="research.html" data-language-choice="zh" aria-current="true">中文</a><span>/</span><a href="research-en.html" data-language-choice="en">EN</a>
+        </div>
+        <button class="theme-toggle" type="button" aria-label="切换为夜间模式" title="切换为夜间模式">
+          <svg class="theme-icon icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.66 6.34l1.41-1.41"/></svg>
+          <svg class="theme-icon icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <div class="page-shell">
+    <aside class="profile-sidebar" aria-label="个人资料">
+      <div class="profile-photo">
+        <img src="assets/images/profile-yuhang-fan.png" alt="范宇航的个人照片" width="164" height="188" draggable="false">
+      </div>
+      <h2>范宇航</h2>
+      <p class="profile-name-en">Yuhang Fan</p>
+      <p class="profile-subtitle">物理学（光学）方向<br>精密光学测量与表征</p>
+      <ul class="profile-details">
+        <li><span class="detail-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg></span><span>中国 · 上海</span></li>
+        <li><span class="detail-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m3 9 9-5 9 5-9 5-9-5Z"/><path d="M7 12v5c3 2 7 2 10 0v-5M21 9v6"/></svg></span><span>同济大学</span></li>
+        <li><span class="detail-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18" rx="1"/><path d="M8 7h2M14 7h2M8 11h2M14 11h2M8 15h2M14 15h2M9 21v-2h6v2"/></svg></span><span>物理科学与工程学院</span></li>
+        <li><span class="detail-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/></svg></span><a href="mailto:fanyh1401@163.com">fanyh1401@163.com</a></li>
+      </ul>
+      <div class="sidebar-keywords"><span>薄膜光学</span><span>偏振光学</span><span>精密测量</span></div>
+    </aside>
+
+    <main id="main-content" class="content-panel">
+      <section class="intro-section" aria-labelledby="research-heading">
+        <h1 id="research-heading">科研项目</h1>
+        <p>我的研究面向集成电路先进制造中的纳米尺度测量需求，尝试将光学测量原理、仪器方法和数据处理结合起来，让薄膜表征更准确、更稳定，也更高效。</p>
+      </section>
+
+      <section class="research-projects" aria-labelledby="projects-heading">
+        <h2 id="projects-heading" class="section-title">项目与研究计划</h2>
+
+        <article class="project-entry project-featured">
+          <div class="entry-heading">
+            <span class="entry-number">01</span>
+            <div><p class="entry-type">论文研究 · 已形成完整方法</p><h3>纳米薄膜厚度测量与表征</h3></div>
+          </div>
+          <p class="project-lead">膜厚测量的难点不只在于“测得多准”，还在于结果能否追溯到可靠标尺，并在不同方法之间相互印证。本项目以约 11 nm 的单层 SiO₂ 薄膜为对象，建立三条彼此独立的量值溯源路线，系统评价跨方法结果的一致性，并将相容结果融合为可用于量值传递的厚度参考值。</p>
+
+          <div class="project-points" aria-label="项目一摘要">
+            <div><strong>问题</strong><p>不同仪器和标尺会给出略有差异的膜厚，如何判断差异来自正常测量波动，还是方法本身不一致？</p></div>
+            <div><strong>方法</strong><p>并行采用标准样板校准椭偏法、Si(111) 晶格标尺 TEM，以及自溯源铬光栅标尺 TEM，并以归一化误差 E<sub>n</sub> 检查计量相容性。</p></div>
+            <div><strong>结果</strong><p>三路结果两两相容（E<sub>n</sub>&lt;1），经不确定度加权得到 11.45 ± 0.10 nm（k=2）的参考膜厚，并形成跨方法一致性评价与量值传递框架。</p></div>
+          </div>
+
+          <figure class="project-figure project-figure-wide">
+            <img src="assets/images/project1-traceability-framework.png" alt="三条独立量值溯源路线汇聚到薄膜厚度参考值的研究框架图" loading="lazy">
+            <figcaption>三条独立溯源路线：标准校准椭偏法、Si(111) 晶格标尺 TEM 与自溯源光栅标尺 TEM。</figcaption>
+          </figure>
+          <div class="project-gallery project-gallery-two">
+            <figure class="project-figure">
+              <img src="assets/images/project1-tem-gradient.png" alt="透射电镜薄膜截面与灰度梯度界面提取示意" loading="lazy">
+              <figcaption>通过灰度剖面与梯度极值提取薄膜上下界面，将像素宽度转换为膜厚。</figcaption>
+            </figure>
+            <figure class="project-figure">
+              <img src="assets/images/project1-results.png" alt="三种测量路线的薄膜厚度结果及最终参考值对比" loading="lazy">
+              <figcaption>三路测量结果与加权参考值对比；误差棒表示扩展不确定度。</figcaption>
+            </figure>
+          </div>
+          <div class="card-meta"><strong>关键词</strong><span>多路溯源</span><span>计量相容性</span><span>不确定度加权</span><span>参考值建立</span><span>跨方法量值传递</span></div>
+        </article>
+
+        <article class="project-entry project-featured">
+          <div class="entry-heading">
+            <span class="entry-number">02</span>
+            <div><p class="entry-type">算法与工具 · 代码为主要成果</p><h3>面向光学测量的图像与信号处理</h3></div>
+          </div>
+          <p class="project-lead">以薄膜界面和光栅结构为实验对象，把“人工找边界、逐张量距离”整理为可重复运行的计算流程：融合多种图像与信号处理方法提取边界和周期特征，并把像素结果换算为膜厚或光栅周期；同一流程也为其他显微图像的自动分析预留了迁移空间。</p>
+
+          <div class="method-flow" aria-label="项目二算法流程">
+            <div><span>01</span><strong>预处理</strong><p>选取 ROI 并进行倾角旋转修正；对低对比度光栅截面，以邻域灰度极差重构局部响应，显著增强材料界面与周期轮廓（见图 1）。</p></div>
+            <div><span>02</span><strong>特征提取</strong><p>膜厚图像以半强度法和梯度法界定上下界面；光栅图像经高斯滤波后，结合 Canny 与轮廓提取定位结构边界（见图 2）。</p></div>
+            <div><span>03</span><strong>参数优化</strong><p>交互调整 ROI 范围、平滑程度与 Canny 阈值，检查轮廓的连续性和稳定性，逐步优化测算结果。</p></div>
+            <div><span>04</span><strong>特征参数计算</strong><p>将像素特征换算为实际量值，输出薄膜厚度；对周期结构计算相邻轮廓的重心间距，获得光栅周期（见图 3）。</p></div>
+          </div>
+
+          <div class="project-figure-sequence">
+            <figure class="project-figure project-figure-wide">
+              <img src="assets/images/project2-preprocessing-range.png" alt="光栅截面原图与局部极差反演增强结果对比" loading="lazy">
+              <figcaption>图 1　原始光栅截面（左）与局部极差反演后的增强结果（右）；材料界面和周期轮廓的对比度得到提升。</figcaption>
+            </figure>
+            <figure class="project-figure project-figure-wide">
+              <img src="assets/images/project2-canny-parameter-panel.png" alt="光栅轮廓提取、Canny边缘检测及参数调整界面" loading="lazy">
+              <figcaption>图 2　光栅边界提取与调参界面：Canny 边缘、目标轮廓和重心结果同步叠加显示。</figcaption>
+            </figure>
+            <figure class="project-figure project-figure-wide">
+              <img src="assets/images/project2-centroid-pitch-result.png" alt="真实光栅轮廓、ROI与相邻结构重心提取结果" loading="lazy">
+              <figcaption>图 3　真实轮廓与 ROI 叠加后的重心提取结果；相邻结构的重心间距用于计算光栅周期。</figcaption>
+            </figure>
+          </div>
+          <div class="card-meta"><strong>关键词</strong><span>半强度法</span><span>Canny</span><span>梯度法</span><span>FFT</span><span>极差反演</span><span>自动化脚本</span></div>
+        </article>
+
+        <article class="project-entry project-featured project-planned">
+          <div class="entry-heading">
+            <span class="entry-number">03</span>
+            <div><p class="entry-type">正在展开 · 理论与建模</p><h3>椭偏测量建模与误差传播</h3></div>
+          </div>
+          <p class="project-lead">椭偏测量的核心，是从光与薄膜相互作用后产生的偏振变化中反推出纳米尺度的材料信息。本项目建立 ψ、Δ 与复折射率 n+ik、膜厚 d、波长和入射角之间的响应关系，研究不同误差源在参数反演中的传递、耦合与放大，进而寻找更可靠的测量条件，并为椭偏仪设计和不确定度评定提供依据。</p>
+
+          <div class="formula-panel" aria-label="椭偏测量的核心关系">
+            <div><span class="formula-label">测量量</span><p>ρ = r<sub>p</sub>/r<sub>s</sub> = tan ψ · e<sup>iΔ</sup></p></div>
+            <div><span class="formula-label">薄膜相位</span><p>β = 2πnd cos θ<sub>f</sub> / λ</p></div>
+            <div><span class="formula-label">误差传播</span><p>[δψ, δΔ]<sup>T</sup> ≈ J<sub>n,d</sub>[δn, δd]<sup>T</sup> + J<sub>q</sub>δq</p></div>
+          </div>
+          <p class="formula-explain">其中 λ 为波长，θ<sub>f</sub> 为膜内折射角，q 可包含入射角、波长、基底光学常数和仪器误差。雅可比矩阵 J 描述每个输入量变化时 ψ、Δ 会改变多少；反演矩阵接近病态时，微小噪声也可能被明显放大。</p>
+
+          <div class="research-roadmap">
+            <div><span>第一步</span><h4>建立前向模型</h4><p>计算 ψ、Δ 随 n、k、d、λ 和入射角变化的响应。</p></div>
+            <div><span>第二步</span><h4>绘制灵敏度地图</h4><p>用解析导数与数值扰动比较各输入误差的贡献，识别最敏感参数。</p></div>
+            <div><span>第三步</span><h4>验证与优化</h4><p>以蒙特卡洛方法检验线性误差传播，并筛选更稳健的波长与入射角组合。</p></div>
+          </div>
+          <aside class="project-status"><strong>计划形成</strong><span>灵敏度计算脚本</span><span>不确定度预算表</span><span>测量条件优化图</span><span>误差主导项诊断</span></aside>
+          <div class="card-meta"><strong>关键词</strong><span>ψ/Δ</span><span>参数反演</span><span>雅可比矩阵</span><span>误差传播</span><span>条件优化</span></div>
+        </article>
+      </section>
+    </main>
+  </div>
+
+  <footer class="site-footer"><div class="footer-shell"><span>© <span data-current-year></span> 范宇航</span><span class="footer-side"><a href="activities.html">下一页：实践活动 →</a><span class="visit-counter" data-visit-counter hidden>累计访问 <strong data-visit-count>—</strong> 次</span></span></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>

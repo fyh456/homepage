@@ -1,0 +1,15 @@
+# Local previews and extracted working files
+tmp/
+
+# Private/local CV files — only CV-en.pdf is published
+output/pdf/CV-zh.pdf
+output/pdf/CV-placeholder.pdf
+
+# Superseded research-page image drafts kept locally
+assets/images/project2-canny-centroid-gui.png
+assets/images/project2-centroid-overlay.png
+assets/images/project2-film-gradient.png
+
+# Local authoring helpers
+generate_cv_placeholder.py
+实践活动填写模板.md
